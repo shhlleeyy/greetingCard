@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   function checkDate() {
     var currentDate = new Date();
-    var unlockDate = new Date("2025-04-02T22:35:00");
+    var unlockDate = new Date("2025-04-04T00:00:00");
 
     var card = document.querySelector(".card");
     var timer = document.querySelector(".timer");
